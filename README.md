@@ -1,8 +1,10 @@
 Introduction
+
 This project analyzes a heart disease dataset to predict and understand patterns associated with heart disease. The analysis employs three distinct data mining techniques: machine learning classification, K-Means clustering, and frequent pattern mining using the Apriori algorithm.
 
 
 Dataset Overview
+
 The dataset consists of 918 patient records with 12 attributes.
 
 Attributes:
@@ -22,6 +24,7 @@ ST_Slope	object
 HeartDisease	int64
 
 Methodology & Analysis
+
 Three different data mining techniques were applied to the dataset to gain unique insights.
 
 1. Classification Analysis
@@ -71,8 +74,10 @@ Antecedents	Consequents	Support	Confidence	Lift
 
 
 Overall Implications
+
 Combining predictive modeling with unsupervised learning and pattern-based analysis provides a comprehensive view of the data. This multi-faceted approach supports both accurate prediction of disease and a deeper understanding of risk factors, which is valuable for medical professionals and public health initiatives.
 
 
 Conclusion
+
 The Random Forest model demonstrated good performance in classifying heart disease. K-Means clustering successfully identified distinct patient groups based on health indicators. Association rule mining uncovered common combinations of risk factors that may indicate a higher probability of heart disease.
